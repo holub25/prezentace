@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jiří Holub — Osobní web</title>
+  <link rel="stylesheet" href="PrezentaceCSS.css">
+</head>
+<body>
+
+  <!-- Hlavní menu -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">Jiří Holub</a>
+      <ul class="nav-list">
+        <li><a href="#about">O mně</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#skills">Dovednosti</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Úvod -->
+  <section id="home" class="hero">
+    <h1>Vítejte na mém webu</h1>
+    <p>Jmenuji se Jiří Holub. Mám rád fotbal a programování. Zajímám se o Javu, C# a HTML.</p>
+  </section>
+
+  <!-- O mně -->
+  <section id="about" class="section">
+    <h2>O mně</h2>
+    <p>Jsem začínající programátor, který se učí Javu, C# a HTML. Baví mě tvořit jednoduché weby a malé projekty.</p>
+    <img src="foto.jfif" alt="Foto" class="image">
+  </section>
+
+  <!-- Dovednosti a koníčky -->
+  <section id="skills" class="section">
+    <div class="two-col">
+      <div>
+        <h3>Co umím</h3>
+        <ul>
+          <li>Základy Java</li>
+          <li>Základy C#</li>
+          <li>HTML a CSS</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Koníčky</h3>
+        <ul>
+          <li>Fotbal</li>
+          <li>Technologie</li>
+          <li>Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="video" class="section">
+    <h2>Animace o mně</h2>
+    <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
+    <h2>Moje práce</h2>
+    <div class="grid">
+      <figure>
+        <img src="obrazek1.png" alt="Space parkour">
+        <figcaption>Jednoduchá parkour hra v Java</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazek2.png" alt="Farming simulator">
+        <figcaption>Farming simulátor v Java</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazek3.PNG" alt="Textova hra">
+        <figcaption>Kus kódu z textové hry</figcaption>
+      </figure>
+      <figure>
+        <p><a href="https://github.com/holub25" target="_blank" class="button">Můj GitHub</a></p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="contact" class="section contact">
+    <h2>Kontakt</h2>
+    <p>Email: jiri.holub@email.com</p>
+    <p>Tel: 545 693 211</p>
+  </section>
+
+  
+
+</body>
+</html>
